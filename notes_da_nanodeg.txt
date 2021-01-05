@@ -1,0 +1,152 @@
+Anaconda
+https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/
+https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html
+
+Jupiter Notebooks
+https://losc.ligo.org/s/events/GW150914/GW150914_tutorial.html
+https://www.ligo.caltech.edu/news/ligo20160211
+http://nbviewer.jupyter.org/github/jmsteinw/Notebooks/blob/master/IndeedJobs.ipynb
+http://nbviewer.jupyter.org/github/masinoa/machine_learning/blob/master/04_Neural_Networks.ipynb
+http://nbviewer.jupyter.org/github/tdhopper/rta-pyspark-presentation/blob/master/slides.ipynb
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+http://ipython.readthedocs.io/en/stable/interactive/magics.html
+
+Python for Data Analysis
+http://www.ruxizhang.com/uploads/4/4/0/2/44023465/python_for_data_analysis.pdf
+https://research.fb.com/exposure-to-diverse-information-on-facebook-2/
+http://blog.okcupid.com/index.php/the-best-questions-for-first-dates/
+http://www.dezyre.com/article/how-big-data-analysis-helped-increase-walmart-s-sales-turnover/109
+http://www.numerate.com/numerates-ranking-technology-pharmaceutical-rd-gains-u-s-patent/
+
+ What is data analysis process:
+Question
+Wrangle
+Gather your data
+Assess data
+Clean data
+Explore
+Draw conclusions
+Communicate
+
+Step 1: Ask questions
+Either you're given data and ask questions based on it, or you ask questions first and gather data based on that later. In both cases, great questions help you focus on relevant parts of your data and direct your analysis towards meaningful insights.
+Step 2: Wrangle data
+You get the data you need in a form you can work with in three steps: gather, assess, clean. You gather the data you need to answer your questions, assess your data to identify any problems in your data’s quality or structure, and clean your data by modifying, replacing, or removing data to ensure that your dataset is of the highest quality and as well-structured as possible.
+Step 3: Perform EDA (Exploratory Data Analysis)
+You explore and then augment your data to maximize the potential of your analyses, visualizations, and models. Exploring involves finding patterns in your data, visualizing relationships in your data, and building intuition about what you’re working with. After exploring, you can do things like remove outliers and create better features from your data, also known as feature engineering.
+Step 4: Draw conclusions (or even make predictions)
+This step is typically approached with machine learning or inferential statistics that are beyond the scope of this course, which will focus on drawing conclusions with descriptive statistics.
+Step 5: Communicate your results
+You often need to justify and convey meaning in the insights you’ve found. Or, if your end goal is to build a system, you usually need to share what you’ve built, explain how you reached design decisions, and report how well it performs. There are many ways to communicate your results: reports, slide decks, blog posts, emails, presentations, or even conversations. Data visualization will always be very valuable.
+
+https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
+
+Data Analysis Process: Case Study 1
+https://askubuntu.com/questions/261900/how-do-i-open-a-text-file-in-my-terminal
+https://stackoverflow.com/questions/418914/why-is-c-so-fast-and-why-arent-other-languages-as-fast-or-faster
+https://stackoverflow.com/questions/20868394/changing-a-specific-column-name-in-pandas-dataframe
+
+
+In the previous lesson, we selected rows in a dataframe by indexing with a mask. Here are those same examples, along with equivalent statements that use query().
+# selecting malignant records in cancer data
+df_m = df[df['diagnosis'] == 'M']
+df_m = df.query('diagnosis == "M"')
+
+# selecting records of people making over $50K
+df_a = df[df['income'] == ' >50K']
+df_a = df.query('income == " >50K"')
+The examples above filtered columns containing strings. You can also use query to filter columns containing numeric data like this.
+# selecting records in cancer data with radius greater than the median
+df_h = df[df['radius'] > 13.375]
+df_h = df.query('radius > 13.375')
+
+
+https://seaborn.pydata.org/examples/index.html
+
+https://classroom.udacity.com/nanodegrees/nd002/parts/6f1ba175-1429-48e9-ab26-44d08ab21e7e/modules/0a58e8ea-c644-4024-861e-1a06ec4009c1/lessons/6b41e57c-9270-413b-b713-c6b2ec207b04/project
+
+Statistics
+Quantitative
+Continuous data can be split into smaller and smaller units, and still a smaller unit exists. An example of this is the age of the dog - we can measure the units of the age in years, months, days, hours, seconds, but there are still smaller units that could be associated with the age.
+Discrete data only takes on countable values. The number of dogs we interact with is an example of a discrete data type.
+Categorical
+Ordinal - data take on a ranked ordering (like a ranked interaction on a scale from Very Poor to Very Good with the dogs)
+Nominal - data do not have an order or ranking (like the breeds of the dog).
+
+Measures of centre: Mean Median and Mode	
+https://stats.stackexchange.com/questions/3931/intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation
+https://onlinecourses.science.psu.edu/stat414/node/193
+https://stats.stackexchange.com/questions/26088/explaining-to-laypeople-why-bootstrapping-works
+http://stattrek.com/hypothesis-test/hypothesis-testing.aspx
+
+
+Hypothesis
+http://sites.utexas.edu/sos/guided/inferential/numeric/claim/one-sample-t/
+https://www.isixsigma.com/tools-templates/hypothesis-testing/making-sense-two-sample-t-test/
+http://www.statstutor.ac.uk/resources/uploaded/paired-t-test.pdf
+http://stattrek.com/statistics/dictionary.aspx?definition=one-sample%20z-test https://onlinecourses.science.psu.edu/stat414/node/268
+https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg
+http://www.z-table.com/t-value-table.html
+http://www.pewresearch.org/fact-tank/2016/11/09/why-2016-election-polls-missed-their-mark/
+https://rebeccaebarnes.github.io/2018/05/01/what-is-a-p-value
+http://freakonometrics.hypotheses.org/19817
+https://stats.stackexchange.com/questions/7948/when-is-it-ok-to-remove-the-intercept-in-a-linear-regression-model
+
+Linear Regression
+https://github.com/tdpetrou/Machine-Learning-Books-With-Python/tree/master/Introduction%20to%20Statistical%20Learning
+https://web.stanford.edu/~mrosenfe/soc_meth_proj3/matrix_OLS_NYU_notes.pdf
+
+P Value
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6164648/
+http://varianceexplained.org/statistics/interpreting-pvalue-histogram/
+
+Data Wrangling
+https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html
+http://www.jeannicholashould.com/tidy-data-in-python.html
+https://simplystatistics.org/2016/02/17/non-tidy-data/
+https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/
+https://tdwi.org/articles/2017/02/10/data-wrangling-and-etl-differences.aspx
+https://medium.com/towards-data-science/ethics-in-web-scraping-b96b18136f01
+https://twitter.com/venturidb/status/734757220525715456
+https://public.tableau.com/views/BestofRottenTomatoesCriticvs_AudienceScores/BestofRottenTomatoesCriticvs_AudienceScores?:embed=y&:display_count=yes
+https://stackoverflow.com/questions/2665866/what-is-the-wb-mean-in-this-code-using-python
+https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+http://kunststube.net/encoding/
+https://stackoverflow.com/questions/6224052/what-is-the-difference-between-a-string-and-a-byte-string
+https://stackoverflow.com/a/22288895
+https://stackoverflow.com/a/8010133
+https://stackoverflow.com/a/16994568
+http://stackabuse.com/reading-and-writing-json-to-a-file-in-python/
+https://stackoverflow.com/a/28058264
+https://www.reddit.com/r/Python/comments/1tqjt4/why_do_you_use_pandas_instead_of_sql/
+https://stackoverflow.com/questions/893454/is-it-a-good-idea-to-use-an-integer-column-for-storing-us-zip-codes-in-a-databas
+https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html
+https://stackoverflow.com/questions/27673231/why-should-i-make-a-copy-of-a-data-frame-in-pandas
+https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number
+https://deparkes.co.uk/2016/10/28/reshape-pandas-data-with-melt/
+https://stackoverflow.com/questions/12307099/modifying-a-subset-of-rows-in-a-pandas-dataframe/44913631#44913631
+
+Assess: Define - what we observed
+Clean: Define - What needs to be done
+https://confirm.udacity.com/KRJWC26C
+
+Data Visualisation
+
+http://www.storytellingwithdata.com/about/
+https://github.com/udacity/AIPND
+https://stackoverflow.com/questions/20144529/shifted-colorbar-matplotlib
+
+— MediaWiki API
+— wptools
+— glob
+— os
+— numpy
+— pandas
+— tweepy
+— Pillow (pil) - Image
+— requests
+— io
+— SQL Alchemy
+— regex
+— assert
+— 
