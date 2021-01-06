@@ -1,0 +1,3 @@
+Nominal and Ordinal variables
+- Nominal -> Ones which cannot be ranked
+-Ordinal -> Ones which can be ranked example numbers, grades etc
