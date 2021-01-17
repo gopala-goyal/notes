@@ -1,0 +1,52 @@
+Balance sheet
+- Financial position of a person/business on a specific date
+- Assets = Liabilities + Stockholders' equity (Claims on assets by owners)
+
+Income Statement - Accural Accounting
+- Net Income = Revenue - Expenses
+
+Cash Flows
+ - Sources of cash over a pd of time
+
+Sources for Company finance reports:
+Morning *
+Company website
+Google etc
+Wharton Research Data Services
+
+Ratio Analysis:
+Woof Junction - Fashionable clothes for dogs.
+Many stores etc.
+Strategy - Good quality with low prices
+Large qty of less items
+old stock cleared fast with discount
+Strict Quality standard and inspection
+Strong brand name
+celeb endorsements
+Stable management
+High Growth in sales & earnings
+
+Price earnings ratio: Ratio of stock price to the earnings.
+Goals:
+At least 30% ROE & 11% ROS
+20% Sales Growth
+
+
+DuPont Ratio Analysis Framework
+
+ROE - Return on Equity - How much return the company returns for its share holders
+-- Profitiablity and 2 more
+Net Income/Average Shareholder Equity - For every $ invested, how much is income generated
+ROE = Return on Assets (DL Net Income/avg total assets) * Financial Leverage(Avg total assets/Avg shareholder equity) => Udhaar from Bank
+
+ROA = ROS - Return on Sales(DL Net Income/Sales) * Asset turnover
+ROS - How much profit is earned on each $ of sales
+Asset Turnover - Sales/Avg total assets
+
+ROE = Profitability * efficiency * leverage
+
+De-Levered Net Income:
+Jab hi koi company ka return on assets nikalta hai, tab usme interest expense bhi judti hai. Uss expense ko hatane ko de-lever Karna blote hai.
+
+DL Net Income = Net Income + (1-t) Interest expense
+
