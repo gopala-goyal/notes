@@ -74,4 +74,14 @@ Expected benefits > Expected Cost
 
 Revenue Recognition:
 Revenue is recognised when it is earned and realisable
+******************************************************************************
 
+Discretionary Accruals
+Non cash earnings are accruals - warranty expense, sales made on account etc
+Easy to manipulate because they are based on judgement
+
+Modified Jones Model of Discretionary Accruals
+Accruals should be a func of revenue growth and tangible assets
+
+Time series model - need 10 years of data
+Cross sectional - check the industry at the same time
